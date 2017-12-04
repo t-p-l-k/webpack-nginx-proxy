@@ -1,0 +1,9 @@
+df:
+  build: .
+  dockerfile: Dockerfile
+  volumes:
+    - ./conf.d:/etc/nginx/conf.d
+    - ./ssl:/etc/ssl
+  ports:
+    - 80:80
+    - 443:443
