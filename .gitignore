@@ -1,1 +1,5 @@
 .idea
+
+# SSL
+ssl/private/myssl.key
+ssl/certs/myssl.crt
