@@ -1,0 +1,5 @@
+<script>
+	const isHttp = () => location.protocol === 'http:';
+	const getProtocol = () => isHttp() ? 'https:' : 'http:';
+	window.location =  getProtocol() + location.host + location.pathname;
+</script>
